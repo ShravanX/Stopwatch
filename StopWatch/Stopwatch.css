@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(images.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.outerlayer{
+    height: 80px;
+    width: 280px;
+    background-color: white;
+    display: inline-flex;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerlayer{
+    height: 60px;
+    width: 260px;
+    background-image: url(images.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.innerlayer span{
+    font-size: 50px;
+    color: white;
+}
+
+.btn .start {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 5px solid white;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn .reset {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 5px solid white;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn .lapsbtn {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 5px solid white;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.laps {
+    list-style: none;
+    color: white;
+    /* width: 250px; */
+    height: 250px;
+    overflow: auto;
+    position: relative;
+    padding: 30px 0;
+}
+
+laps::-webkit-scrollbar {
+    display: none;
+}
+
+.lap-item {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background:transparent;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.number {
+    color: #cccccc;
+}
+
+.time-stamp {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: larger;
+    /* text-decoration: rgb(244, 5, 244) underline;*/
+} 
+
+.clearbtn {
+    margin: 35px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    background-color: aliceblue;
+    border-radius: 50px;
+    font-weight: 300;
+}
+
+.clearbtn:hover{
+     box-shadow: 0 0 5px white;
+}
